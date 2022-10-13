@@ -4,6 +4,16 @@ public class Person {
     private String city;
     private long mobileNumber;
 
+    @Override
+    public String toString() {
+        return "Person{" +
+                "firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", city='" + city + '\'' +
+                ", mobileNumber=" + mobileNumber +
+                '}';
+    }
+
     public String getFirstName() {
         return firstName;
     }
